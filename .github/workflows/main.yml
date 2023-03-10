@@ -25,7 +25,7 @@ jobs:
          run: |
            git clone -b main https://rwilke96:${{ secrets.GH_TOKEN }}@github.com/rwilke96/splat-deacon.git
        - name: Running Bot 
-         timeout-minutes: 250
+         timeout-minutes: 180
          continue-on-error: true
          run: |
            cd splat-deacon
